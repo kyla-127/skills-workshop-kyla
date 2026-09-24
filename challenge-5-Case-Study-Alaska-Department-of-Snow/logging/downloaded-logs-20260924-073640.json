@@ -1,0 +1,73 @@
+[
+  {
+    "insertId": "6ab535030001270de3b9d056",
+    "httpRequest": {
+      "requestMethod": "GET",
+      "requestUrl": "https://ads-doc-parser-yul457qxrq-uc.a.run.app/_stcore/host-config",
+      "requestSize": "784",
+      "status": 200,
+      "responseSize": "837",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "remoteIp": "2605:a601:a736:9700:90f:4c4b:b1f9:a96",
+      "referer": "https://ads-doc-parser-yul457qxrq-uc.a.run.app/",
+      "serverIp": "2600:1900:4245:200::",
+      "latency": "0.002701100s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "service_name": "ads-doc-parser",
+        "project_id": "qwiklabs-gcp-03-e63021eff019",
+        "revision_name": "ads-doc-parser-00003-pmz",
+        "location": "us-central1",
+        "configuration_name": "ads-doc-parser"
+      }
+    },
+    "timestamp": "2026-09-24T14:34:43.059474Z",
+    "severity": "INFO",
+    "labels": {
+      "instanceId": "0010dd86075e2f6f55e4986a467b57ec4ca97550648934b86be70dcd6314df54703751bccc422366cd2e937f0a7a7ea3e83b46bf0994b735442879fd17cc489ca2eecfd3c417c56d541171a05422ed"
+    },
+    "logName": "projects/qwiklabs-gcp-03-e63021eff019/logs/run.googleapis.com%2Frequests",
+    "trace": "projects/qwiklabs-gcp-03-e63021eff019/traces/91bc720acd6ac173c07d015b8fa91398",
+    "receiveTimestamp": "2026-09-24T14:34:43.223804979Z",
+    "spanId": "d77c363ea443a8d4",
+    "traceSampled": true
+  },
+  {
+    "insertId": "6ab5350300012d6a746c3d81",
+    "httpRequest": {
+      "requestMethod": "GET",
+      "requestUrl": "https://ads-doc-parser-yul457qxrq-uc.a.run.app/_stcore/health",
+      "requestSize": "779",
+      "status": 200,
+      "responseSize": "159",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "remoteIp": "2605:a601:a736:9700:90f:4c4b:b1f9:a96",
+      "referer": "https://ads-doc-parser-yul457qxrq-uc.a.run.app/",
+      "serverIp": "2600:1900:4245:200::",
+      "latency": "0.002300441s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "revision_name": "ads-doc-parser-00003-pmz",
+        "project_id": "qwiklabs-gcp-03-e63021eff019",
+        "location": "us-central1",
+        "configuration_name": "ads-doc-parser",
+        "service_name": "ads-doc-parser"
+      }
+    },
+    "timestamp": "2026-09-24T14:34:43.059826Z",
+    "severity": "INFO",
+    "labels": {
+      "instanceId": "0010dd86075e2f6f55e4986a467b57ec4ca97550648934b86be70dcd6314df54703751bccc422366cd2e937f0a7a7ea3e83b46bf0994b735442879fd17cc489ca2eecfd3c417c56d541171a05422ed"
+    },
+    "logName": "projects/qwiklabs-gcp-03-e63021eff019/logs/run.googleapis.com%2Frequests",
+    "trace": "projects/qwiklabs-gcp-03-e63021eff019/traces/e3b2e996b5616b14c07d015b8fa91e61",
+    "receiveTimestamp": "2026-09-24T14:34:43.223804979Z",
+    "spanId": "c7d02b5c98343644"
+  }
+]
